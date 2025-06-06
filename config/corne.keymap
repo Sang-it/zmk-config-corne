@@ -39,7 +39,7 @@
             bindings = <
 &bt BT_CLR_ALL  &bt BT_SEL 2  &bt BT_SEL 3  &trans  &trans  &trans    &trans    &kp UP_ARROW    &trans           &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3
 &bt BT_SEL 1    &bootloader   &trans        &trans  &trans  &trans    &kp LEFT  &kp DOWN_ARROW  &kp RIGHT        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6
-&bt BT_SEL 0    &trans        &trans        &trans  &trans  &trans    &trans    &trans          &kp KP_NUMBER_0  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_8
+&bt BT_SEL 0    &trans        &trans        &trans  &trans  &trans    &trans    &trans          &kp KP_NUMBER_0  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9
                                             &trans  &trans  &trans    &trans    &trans          &trans
             >;
         };
