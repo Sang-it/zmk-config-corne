@@ -37,10 +37,10 @@
             //                            | GUI |     |  SPC  |   | ENT |     | ALT |
 
             bindings = <
-&bt BT_CLR_ALL  &trans           &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans    &trans  &trans          &kp UP_ARROW    &trans           &trans  &kp ESCAPE
-&trans          &kp KP_NUMBER_0  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans    &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&bt BT_SEL 0    &bt BT_SEL 1     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans    &trans  &trans          &trans          &trans           &trans  &trans
-                                                  &trans           &trans           &trans    &trans  &trans          &trans
+&trans  &trans           &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans    &trans  &trans          &kp UP_ARROW    &trans           &trans        &kp ESCAPE
+&trans  &kp KP_NUMBER_0  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans    &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans        &bt BT_CLR_ALL
+&trans  &trans           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans    &trans  &trans          &trans          &trans           &bt BT_SEL 0  &bt BT_SEL 1
+                                          &trans           &trans           &trans    &trans  &trans          &trans
             >;
         };
     };
